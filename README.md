@@ -48,6 +48,16 @@ This plugin adds an AI-powered "Generate Response" button to the agent ticket vi
 
 - Only staff with reply permission can use the AI response feature.
 
+## Example screenshots
+
+### Plugin configuration
+
+![Plugin configuration](https://github.com/user-attachments/assets/26e97839-4720-4eea-9af4-67d39fa3722e)
+
+### Ticket view
+
+![Ticket view](https://github.com/user-attachments/assets/89968c70-f0ff-4e04-a028-b1842d598cac)
+
 ## License
 
 MIT License
