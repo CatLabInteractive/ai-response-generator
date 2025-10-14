@@ -1,7 +1,7 @@
 <?php
 return array(
     'id' =>             'ai-response-generator:osticket',
-    'version' =>        '0.1.0',
+    'version' =>        '0.1.1',
     'name' =>           'AI Response Generator',
     'description' =>    'Adds an AI-powered "Generate Response" button to the agent ticket view with configurable API settings and RAG.',
     'author' =>         'Mateusz Hajder',
