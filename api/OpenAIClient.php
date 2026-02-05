@@ -29,7 +29,7 @@ class OpenAIClient {
             'model' => $model,
             'messages' => $messages,
             'temperature' => $temperature,
-            'max_tokens' => $max_tokens,
+            //'max_tokens' => $max_tokens,
         );
 
         $headers = array('Content-Type: application/json');
