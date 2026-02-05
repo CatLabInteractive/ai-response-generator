@@ -40,7 +40,7 @@ class OpenAIClient {
         curl_setopt($ch, CURLOPT_POST, true);
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_TIMEOUT, 15);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 60*2);
         curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($payload));
 
         $resp = curl_exec($ch);
